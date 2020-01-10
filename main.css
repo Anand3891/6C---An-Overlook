@@ -1,0 +1,14 @@
+.nav-item active:after {
+  display: block;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 2px;
+  background-color: #f30303;
+  content: "";
+  transition: width 0.2s;
+}
+
+.nav-item active:hover {
+  color: #0d0d0d;
+}
