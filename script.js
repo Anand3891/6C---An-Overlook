@@ -11,13 +11,15 @@ function validate() {
   var un = document.myform.username.value;
   var pw = document.myform.pword.value;
   var valid = false;
-  var unArray = ["Archit", "Sreehitha", "Nakul", "Vrinda", "Diya", "Keshav", "Yuvraj", "Lucas", "Eric", "Maanika", "Dhruva", "Anuj", "Nyan", "Roohni", "Saachi", "Pranesh", "Anand", "Nathan", "Layton", "Kathy", "admin"];
-  var pwArray = ["6COverlook", "6COverlook", "debatechamp246", "6COverlook", "6COverlook", "6COverlook", "6COverlook", "lucaca", "6COverlook", "6COverlook", "6COverlook", "football123", "nyanpatel", "6COverlook", "6COverlook", "6COverlook", "1141144", "Jeffy", "SAO", "6COverlook", "admin"];
+  var unArray = ["Archit", "Sreehitha", "Nakul", "Vrinda", "Diya", "Keshav", "Yuvraj", "Lucas", "Eric", "Maanika", "Dhruva", "Anuj", "Nyan", "Roonhi", "Saachi", "Pranesh", "Anand", "Nathan", "Layton", "Kathy", "admin"];
+  var pwArray = ["6COverlook", "6COverlook", "debatechamp246", "6COverlook", "6COverlook", "6COverlook", "6COverlook", "lucaca", "6COverlook", "6COverlook", "6COverlook", "football123", "poopyface", "6COverlook", "6COverlook", "pranpran#1", "1141144", "Jeffy", "SAO", "6COverlook", "admin"];
   for (var i = 0; i < unArray.length; i++) {
     if ((un == unArray[i]) && (pw == pwArray[i])) {
       valid = true;
     }
   }
+  
+  
   if (valid) {
     alert("Login successful.  Hello, " + un + ". Welcome to our website.");
     window.location.replace("home.html");
@@ -39,5 +41,6 @@ function validate() {
     return false;
   }
 }
+
 
 
