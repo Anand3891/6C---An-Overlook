@@ -1,3 +1,4 @@
+
 function myFunction() {
   var x = document.getElementById("myInput");
   if (x.type === "password") {
@@ -24,6 +25,7 @@ function validate() {
     alert("Login successful.  Hello, " + un + ". Welcome to our website.");
     window.location.replace("home.html");
   }
+  
   else {
     alert("Invalid username and/or password. Try again. If you are not in 6C, you cannot access this website.");
   }
@@ -41,6 +43,7 @@ function validate() {
     return false;
   }
 }
+
 
 
 
