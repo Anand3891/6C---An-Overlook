@@ -20,7 +20,6 @@ function validate() {
     }
   }
   
-  
   if (valid) {
     alert("Login successful.  Hello, " + un + ". Welcome to our website.");
     window.location.replace("home.html");
