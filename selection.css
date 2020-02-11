@@ -1,0 +1,10 @@
+/*** Works on common browsers ***/
+::selection {
+    background-color: #342abb;
+    color: #fff;
+}
+p.italoc {
+  font-style: italic;
+}
+
+

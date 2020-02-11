@@ -12,7 +12,8 @@ function validate() {
   var pw = document.myform.pword.value;
   var valid = false;
   var unArray = ["Archit", "Sreehitha", "Nakul", "Vrinda", "Diya", "Keshav", "Yuvraj", "Lucas", "Eric", "Maanika", "Dhruva", "Anuj", "Nyan", "Roonhi", "Saachi", "Pranesh", "Anand", "Nathan", "Layton", "Kathy", "admin"];
-  var pwArray = [/*Archit*/ "archeetos", /*Sreehitha*/ "6COverlook","debatechamp246", "6COverlook", "6COverlook", , "anything", /*Lucas*/"Lucass", /*Eric*/"Menggg", /*Maanika*/"6COverlook", /*Dhruva*/"6COverlook", /*Anuj*/"football123", /*Nyan*/"poopyface", "SRS", "tramarat", "justkeepitnormal", "1141144", "nasangswee", "fairytail", "6COverlook", "admin"];
+  var pwArray = [/*Archit*/ "", /*Sreehitha*/ "SB",/*Nakul*/"debatechamp246", /*Vrinda*/"6COverlook", /*Diya*/"6COverlook",/*Keshav*/"6COverlook" , /*Yuvraj*/"anything", /*Lucas*/"lucasbadTTT", /*Eric*/"Menggg", /*Maanika*/"6COverlook"
+  , /*Dhruva*/"6COverlook", /*Anuj*/"football123", /*Nyan*/"poopyface", /*Roohni*/"SRS", /*Saachi*/"tramarat", /*Pranesh*/"justkeepitnormal", /*Anand*/"1141144", /*Nathan*/"nasangswee", /*Layton*/"fairytail", /*Kathy*/"6COverlook", /*Admin*/"bbjsh"];
   for (var i = 0; i < unArray.length; i++) {
     if ((un == unArray[i]) && (pw == pwArray[i])) {
       valid = true;
