@@ -12,8 +12,9 @@ function validate() {
   var pw = document.myform.pword.value;
   var valid = false;
   var unArray = ["Archit", "Sreehitha", "Nakul", "Vrinda", "Diya", "Keshav", "Yuvraj", "Lucas", "Eric", "Maanika", "Dhruva", "Anuj", "Nyan", "Roonhi", "Saachi", "Pranesh", "Anand", "Nathan", "Layton", "Kathy", "admin"];
-  var pwArray = [/*Archit*/ "", /*Sreehitha*/ "SB",/*Nakul*/"debatechamp246", /*Vrinda*/"6COverlook", /*Diya*/"6COverlook",/*Keshav*/"6COverlook" , /*Yuvraj*/"anything", /*Lucas*/"lucasbadTTT", /*Eric*/"Menggg", /*Maanika*/"6COverlook"
-  , /*Dhruva*/"6COverlook", /*Anuj*/"football123", /*Nyan*/"poopyface", /*Roohni*/"SRS", /*Saachi*/"tramarat", /*Pranesh*/"justkeepitnormal", /*Anand*/"1141144", /*Nathan*/"nasangswee", /*Layton*/"fairytail", /*Kathy*/"6COverlook", /*Admin*/"bbjsh"];
+  var pwArray = [
+    /*Archit*/ "starchit", /*Sreehitha*/ "SB",/*Nakul*/"debatechamp246", /*Vrinda*/"6COverlook", /*Diya*/"6COverlook",/*Keshav*/"6COverlook" , /*Yuvraj*/"anything", /*Lucas*/"ericgoodatbrawlstars", /*Eric*/"Menggg", /*Maanika*/"6COverlook"
+  , /*Dhruva*/"6COverlook", /*Anuj*/"football123", /*Nyan*/"poopyface", /*Roohni*/"SRS", /*Saachi*/"tramarat", /*Pranesh*/"justkeepitnormal", /*Anand*/"1141144", /*Nathan*/"nasangswee", /*Layton*/"fairytail", /*Kathy*/"6COverlook", /*Admin*/"kpopsucks"];
   for (var i = 0; i < unArray.length; i++) {
     if ((un == unArray[i]) && (pw == pwArray[i])) {
       valid = true;
